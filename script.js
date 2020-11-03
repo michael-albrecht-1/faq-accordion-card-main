@@ -23,7 +23,7 @@ const list = [
 
 const iconArrowArrow = document.createElement("img");
 iconArrowArrow.src = "./images/icon-arrow-down.svg";
-// iconArrowArrow.onclick = showAnswer();
+iconArrowArrow.onclick = showAnswer;
 
 const root = document.getElementById("root");
 
